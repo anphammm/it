@@ -1,4 +1,4 @@
-package org.example;
+package array.src.main.java.org.example;
 
 public class bai1c {
 

@@ -1,4 +1,4 @@
-package org.example;
+package array.src.main.java.org.example;
 
 public class bai1b {
     public static void merge(int[] n1, int m, int[] n2, int n) {
