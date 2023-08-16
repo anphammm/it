@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Buoi5" />
+        <option name="gradleJvm" value="corretto-17" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Buoi5" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/an" />
+        <option name="gradleJvm" value="corretto-17" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/an" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/buoi1" />
+        <option name="gradleJvm" value="corretto-17" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/buoi1" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/buoi2" />
+        <option name="gradleJvm" value="corretto-17" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/buoi2" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/buoi3" />
+        <option name="gradleJvm" value="corretto-17" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/buoi3" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/buoi4" />
+        <option name="gradleJvm" value="corretto-17" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/buoi4" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
