@@ -1,6 +1,5 @@
-package org.example;
-
-public class bai3 {
+package array.src.main.java.org.example;
+public class bai3a {
     public static void xinchaomn(String s) {
         if(s.equals("BB")){
             System.out.println("Xin chao Moi ng");
