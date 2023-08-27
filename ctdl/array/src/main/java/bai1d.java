@@ -12,7 +12,7 @@ public class bai1d {
         else if (i<0){
             n1[k] = n2[j];
             j--;
-        }else if (n1[i] >n2[j]){
+        }else if (n1[i] >n2[j]){`
             n1[k] = n1[i];
             i--;
         }
