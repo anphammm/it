@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", Arial, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 12px;
+  background: linear-gradient(135deg, #ffb3d9, #c7b7ff);
+  transition: 0.3s;
+}
+
+body.dark {
+  background: linear-gradient(135deg, #1f1b2e, #111827);
+}
+
+/* ===== Game box ===== */
+.game {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 14px;
+  border-radius: 18px;
+  width: 100%;
+  max-width: 360px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+body.dark .game {
+  background: #1f2933;
+  color: #f9fafb;
+}
+
+.game h2 {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+#question {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 8px 0;
+  color: #7c3aed;
+}
+
+.game-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0 12px;
+  font-size: 14px;
+}
+
+#startGame {
+  border: none;
+  border-radius: 999px;
+  padding: 8px 14px;
+  cursor: pointer;
+  background: #a78bfa;
+  color: #fff;
+  font-weight: bold;
+  width: 100%;
+}
+
+/* ===== Calculator ===== */
+.calculator {
+  background: #ffffff;
+  padding: 16px;
+  border-radius: 22px;
+  width: 100%;
+  max-width: 360px;
+  box-shadow: 0 15px 35px rgba(255, 105, 180, 0.35);
+  transition: 0.3s;
+}
+
+body.dark .calculator {
+  background: #1f2933;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
+}
+
+.toggle {
+  text-align: right;
+  margin-bottom: 6px;
+}
+
+.toggle button {
+  height: 32px;
+  font-size: 12px;
+  padding: 0 10px;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  background: #e9d5ff;
+}
+
+.screen {
+  width: 100%;
+  height: 54px;
+  border: none;
+  border-radius: 14px;
+  margin-bottom: 12px;
+  padding: 10px 12px;
+  font-size: 22px;
+  text-align: right;
+  background: #ffe4f1;
+  color: #6b21a8;
+}
+
+body.dark .screen {
+  background: #0f172a;
+  color: #f9fafb;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  height: 46px;
+  border: none;
+  border-radius: 14px;
+  font-size: 17px;
+  cursor: pointer;
+  background: #f3e8ff;
+  color: #6b21a8;
+  transition: 0.12s ease;
+  box-shadow: 0 3px 0 #c4b5fd;
+}
+
+button:active {
+  transform: translateY(2px);
+  box-shadow: 0 1px 0 #c4b5fd;
+}
+
+.operator {
+  background: #ffb3d9;
+  color: #831843;
+  box-shadow: 0 3px 0 #fb7185;
+}
+
+.equal {
+  grid-column: span 2;
+  background: #a78bfa;
+  color: #ffffff;
+  font-weight: bold;
+  box-shadow: 0 3px 0 #7c3aed;
+}
+
+.clear {
+  background: #fda4af;
+  color: #7f1d1d;
+  box-shadow: 0 3px 0 #fb7185;
+}
+
+/* ===== Responsive cho màn hình lớn ===== */
+@media (min-width: 768px) {
+  body {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .game, .calculator {
+    max-width: 380px;
+  }
+
+  .screen {
+    height: 60px;
+    font-size: 24px;
+  }
+
+  button {
+    height: 52px;
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mini Game Tính Nhanh</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+  <div class="game">
+    <h2>⚡ Mini Game Tính Nhanh</h2>
+    <p id="question">Nhấn “Bắt đầu chơi”</p>
+    <div class="game-info">
+      <span>⏱ Thời gian: <b id="time">30</b>s</span>
+      <span>🏆 Điểm: <b id="score">0</b></span>
+    </div>
+    <button id="startGame">Bắt đầu chơi</button>
+  </div>
+
+  <div class="calculator">
+    <div class="toggle">
+      <button id="toggleMode">🌙 Dark / ☀️ Light</button>
+    </div>
+
+    <input type="text" class="screen" id="screen" disabled placeholder="0">
+
+    <div class="buttons">
+      <button class="clear">AC</button>
+      <button class="clear">DE</button>
+      <button>.</button>
+      <button class="operator">/</button>
+
+      <button>7</button>
+      <button>8</button>
+      <button>9</button>
+      <button class="operator">*</button>
+
+      <button>4</button>
+      <button>5</button>
+      <button>6</button>
+      <button class="operator">-</button>
+
+      <button>1</button>
+      <button>2</button>
+      <button>3</button>
+      <button class="operator">+</button>
+
+      <button>00</button>
+      <button>0</button>
+      <button class="equal">=</button>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
